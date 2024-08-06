@@ -166,7 +166,11 @@ INSERT INTO diariobordo (texto, datahora, fk_aluno_id) VALUES
     JOIN
     aluno
     ON diariobordo.fk_aluno_id = aluno.id;
+    
+    
     drop table avaliacao;
+    
+    
    -- EXERCÍCIO
 CREATE TABLE avaliacao (
     id int PRIMARY KEY auto_increment,
@@ -208,5 +212,82 @@ JOIN
 	aluno a
 ON
 	av.fk_aluno_id = a.id;
+
+-- Adicionar mais dados na tabela aluno com ALTER TABLE
+ALTER TABLE aluno
+ADD COLUMN Nome VARCHAR(255);
+
+
+
+ALTER TABLE aluno
+ADD COLUMN Tempo_de_Estudo INT;
+
+-- ALTER TABLE aluno MODIFY Tempo_de_Estudo INT NOT NULL;
+
+ALTER TABLE aluno
+ADD COLUMN Renda_Media_Salarial_Familiar DECIMAL(10, 2);
+
+DESCRIBE aluno;
+
+SELECT * FROM aluno;
+
+SELECT * FROM aluno ORDER BY id DESC LIMIT 1;
+
+
+INSERT INTO ALUNO (ra, nome, Tempo_de_estudo, Renda_Media_Salarial_Familiar) VALUES
+('58376945', 'Rafael Costa', 8, 2051.36),
+('71958815', 'Carlos Santos', 4, 1517.92),
+('13387097', 'Ana Oliveira', 2, 8244.75),
+('62892751', 'João Ferreira', 9, 3771.58),
+('31548846', 'Mariana Lima', 3, 4746.12),
+('48419106', 'Pedro Gomes', 7, 6973.88),
+('71519098', 'Beatriz Costa', 5, 1859.27),
+('20785423', 'José Souza', 1, 2690.52),
+('41259873', 'Maria Silva', 6, 3146.83),
+('85697413', 'Camila Pereira', 3, 5412.39),
+('16384527', 'Mariana Santos', 4, 2867.34),
+('98745230', 'Carlos Ferreira', 5, 2214.78),
+('58974321', 'Ana Gomes', 2, 4971.65),
+('47895213', 'João Lima', 9, 8201.14),
+('31648752', 'Maria Costa', 1, 1467.20),
+('98714236', 'Pedro Souza', 8, 6947.43),
+('36458279', 'Rafael Silva', 7, 8493.76),
+('10346825', 'Beatriz Pereira', 6, 3624.58),
+('54821379', 'José Santos', 3, 4713.20),
+('97584213', 'Camila Almeida', 2, 3597.54),
+('19843572', 'Mariana Oliveira', 5, 8157.22),
+('41259784', 'Carlos Silva', 4, 3651.91),
+('84513927', 'Pedro Santos', 1, 2965.45),
+('78362145', 'João Pereira', 7, 4271.35),
+('65217384', 'Maria Lima', 8, 2574.78),
+('31947685', 'Ana Costa', 6, 1417.00),
+('21487539', 'Beatriz Souza', 2, 6971.88),
+('97856124', 'José Ferreira', 5, 6547.12),
+('41623857', 'Camila Gomes', 3, 5478.14),
+('13947526', 'Rafael Santos', 4, 7314.89),
+('84573619', 'Mariana Pereira', 1, 5638.47),
+('21348759', 'Carlos Lima', 6, 4971.25),
+('67415893', 'Pedro Costa', 8, 7891.47),
+('18475936', 'Ana Souza', 2, 3795.36),
+('94751638', 'João Santos', 7, 4814.78),
+('12634789', 'Maria Ferreira', 5, 1624.89),
+('31845762', 'Beatriz Almeida', 3, 2578.96),
+('71638492', 'José Silva', 4, 3814.59),
+('59318475', 'Camila Santos', 8, 4678.58),
+('82314765', 'Rafael Souza', 1, 9314.25),
+('12649875', 'Mariana Ferreira', 9, 7418.89),
+('91264375', 'Carlos Pereira', 7, 1584.23),
+('73159824', 'Pedro Silva', 6, 2481.37),
+('41957832', 'Ana Santos', 5, 3561.47),
+('83691475', 'João Gomes', 4, 4171.25),
+('12854793', 'Maria Souza', 2, 6914.47),
+('91478236', 'Beatriz Pereira', 8, 8125.69),
+('82371645', 'José Almeida', 3, 2561.36),
+('36487152', 'Camila Lima', 1, 4765.48);
+
+
+
+
+
 
 

@@ -1,0 +1,15 @@
+id,texto,datahora,fk_aluno_id
+9,Participou das aulas de matemática e português. Demonstrou interesse e fez todas as atividades propostas.,2024-07-30 08:30:00,7
+10,Aulas de ciências e história. Contribuiu com perguntas relevantes e trabalhou bem em grupo.,2024-07-31 09:00:00,7
+11,Fez a prova de matemática com bom desempenho. Participou ativamente das discussões em aula.,2024-07-30 10:00:00,8
+12,Aulas de educação física e artes. Mostrou grande interesse e criatividade nas atividades artísticas.,2024-07-31 11:00:00,8
+13,Participou das aulas de matemática e português. Demonstrou interesse e fez todas as atividades propostas.,2024-07-30 08:30:00,9
+14,Aulas de ciências e história. Contribuiu com perguntas relevantes e trabalhou bem em grupo.,2024-07-31 09:00:00,9
+16,"Hoje aprendi a inserir dados na tabela com o comando INSERT; alterar tabela com comando ALTER TABLE, adicionando uma Constraint e tornando o ra UNIQUE - único; também aprendi a deletar dados com DELETE; DESCRIBE para ver a tabela, aprendi também a inserir o diário de bordo com INSERT; e aprendi também a casar as duas tabelas com o comando JOIN. O comando SHOW TABLE lista as tabelas",2024-07-31 17:48:00,59
+17,Participou das aulas de matemática e português. Demonstrou interesse e fez todas as atividades propostas.,2024-07-30 08:30:00,7
+18,Aulas de ciências e história. Contribuiu com perguntas relevantes e trabalhou bem em grupo.,2024-07-31 09:00:00,7
+19,Fez a prova de matemática com bom desempenho. Participou ativamente das discussões em aula.,2024-07-30 10:00:00,8
+20,Aulas de educação física e artes. Mostrou grande interesse e criatividade nas atividades artísticas.,2024-07-31 11:00:00,8
+21,Participou das aulas de matemática e português. Demonstrou interesse e fez todas as atividades propostas.,2024-07-30 08:30:00,9
+22,Aulas de ciências e história. Contribuiu com perguntas relevantes e trabalhou bem em grupo.,2024-07-31 09:00:00,9
+23,"Hoje aprendi a inserir dados na tabela com o comando INSERT; alterar tabela com comando ALTER TABLE, adicionando uma Constraint e tornando o ra UNIQUE - único; também aprendi a deletar dados com DELETE; DESCRIBE para ver a tabela, aprendi também a inserir o diário de bordo com INSERT; e aprendi também a casar as duas tabelas com o comando JOIN. O comando SHOW TABLE lista as tabelas",2024-07-31 17:48:00,59
