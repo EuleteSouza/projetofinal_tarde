@@ -13,3 +13,13 @@ id,texto,datahora,fk_aluno_id
 21,Participou das aulas de matemática e português. Demonstrou interesse e fez todas as atividades propostas.,2024-07-30 08:30:00,9
 22,Aulas de ciências e história. Contribuiu com perguntas relevantes e trabalhou bem em grupo.,2024-07-31 09:00:00,9
 23,"Hoje aprendi a inserir dados na tabela com o comando INSERT; alterar tabela com comando ALTER TABLE, adicionando uma Constraint e tornando o ra UNIQUE - único; também aprendi a deletar dados com DELETE; DESCRIBE para ver a tabela, aprendi também a inserir o diário de bordo com INSERT; e aprendi também a casar as duas tabelas com o comando JOIN. O comando SHOW TABLE lista as tabelas",2024-07-31 17:48:00,59
+44,"Hoje aprendemos sobre as equações de segundo grau. Foi uma aula desafiadora, mas consegui acompanhar bem.",2024-08-01 10:00:00,10
+45,A aula de hoje foi sobre a Revolução Francesa. Achei muito interessante entender como esses eventos moldaram a história.,2024-08-02 11:30:00,11
+46,Estudamos reações químicas na aula de química hoje. Fizemos alguns experimentos divertidos no laboratório.,2024-08-03 09:00:00,60
+47,"Na aula de inglês, lemos um conto de Edgar Allan Poe. A narrativa dele é fascinante.",2024-08-04 14:00:00,61
+48,Hoje foi o dia da feira de ciências. Apresentei meu projeto sobre energias renováveis e foi muito bem recebido.,2024-08-05 16:00:00,10
+49,Tivemos uma discussão interessante sobre ética na aula de filosofia. Todos participaram ativamente.,2024-08-06 13:00:00,65
+50,Assistimos a um documentário sobre a Segunda Guerra Mundial na aula de história. Foi muito esclarecedor.,2024-08-07 10:30:00,60
+51,"Hoje, na aula de matemática, revisamos funções trigonométricas. Estou começando a entender melhor o assunto.",2024-08-08 15:00:00,59
+52,"Na aula de biologia, estudamos a estrutura das células. Achei incrível como cada parte tem uma função específica.",2024-08-09 11:00:00,12
+53,Participamos de um debate sobre mudanças climáticas na aula de geografia. Foi muito informativo e todos se envolveram.,2024-08-10 12:00:00,15
